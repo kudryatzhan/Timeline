@@ -16,7 +16,7 @@ class Post {
     var comments: [Comment]
     
     var image: UIImage? {
-        guard let photoData = photoData else { return }
+        guard let photoData = photoData else { return nil }
         return UIImage(data: photoData)
     }
     

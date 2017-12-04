@@ -10,7 +10,7 @@ import UIKit
 
 class PostController {
     
-    let sharedController = PostController()
+    static let shared = PostController()
     
     var posts = [Post]()
     
